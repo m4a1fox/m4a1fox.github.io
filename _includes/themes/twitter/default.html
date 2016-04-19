@@ -1,4 +1,10 @@
 <!DOCTYPE html>
+{% if site.cap == true %}
+<img src="http://imgur.com/Rm5AiEu" alt="">
+<hr>
+<h1>we expand community</h1>
+{% else %}
+
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -28,6 +34,9 @@
   </head>
 
   <body>
+
+
+
     <div class="navbar">
       <div class="navbar-inner">
         <div class="container-narrow">
@@ -56,3 +65,4 @@
     {% include JB/analytics %}
   </body>
 </html>
+{% endif %}
