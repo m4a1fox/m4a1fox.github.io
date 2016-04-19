@@ -42,3 +42,7 @@
     margin: 0 auto;
     float: none;
 }
+
+body.body-cap {
+    background: #E0E0E0;
+}

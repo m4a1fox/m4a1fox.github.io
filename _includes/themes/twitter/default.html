@@ -30,11 +30,13 @@
           title="Sitewide RSS Feed">
 
 </head>
-
+{% if site.cap == true %}
+<body class="body-cap">
+{% else %}
 <body>
+{% endif %}
 {% if site.cap == true %}
 <div class="container-narrow">
-
     <div class="content">
         <div class="row-fluid">
             <div class="cap">
