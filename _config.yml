@@ -22,6 +22,8 @@ production_url : http://m4a1fox.github.io/
 # (see https://help.github.com/articles/migrating-your-pages-site-from-maruku)
 markdown: kramdown
 
+cap: true
+
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
 JB :
