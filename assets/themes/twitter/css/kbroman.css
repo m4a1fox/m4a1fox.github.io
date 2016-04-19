@@ -29,9 +29,11 @@
 }
 
 .cap {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -50px;
-    margin-left: -50px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.cap h1 {
+    text-transform: uppercase;
+    color: #861F34;
 }
