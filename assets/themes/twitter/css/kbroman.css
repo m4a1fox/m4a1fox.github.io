@@ -37,3 +37,8 @@
     text-transform: uppercase;
     color: #861F34;
 }
+
+#cap-wrapper {
+    margin: 0 auto;
+    float: none;
+}
