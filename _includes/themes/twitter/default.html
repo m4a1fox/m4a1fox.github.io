@@ -28,6 +28,11 @@
   </head>
 
   <body>
+  {% if site.cap == 'true' %}
+    Develop mode
+  {% else %}
+    Normal mode
+  {% endif %}
     <div class="navbar">
       <div class="navbar-inner">
         <div class="container-narrow">
@@ -35,7 +40,7 @@
         </div>
       </div>
     </div>
-    {{ site.cap }}
+
     <div class="container-narrow">
 
       <div class="content">
